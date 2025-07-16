@@ -2,7 +2,7 @@ module github.com/khulnasoft-lab/utils
 
 go 1.23.0
 
-toolchain go1.24.0
+toolchain go1.24.5
 
 require (
 	github.com/Masterminds/semver/v3 v3.2.1
