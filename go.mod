@@ -1,6 +1,6 @@
 module github.com/khulnasoft-lab/utils
 
-go 1.23.0
+go 1.24.0
 
 toolchain go1.24.5
 
@@ -44,11 +44,11 @@ require (
 	github.com/tidwall/gjson v1.14.3
 	github.com/zmap/zcrypto v0.0.0-20231018155041-c1c1128be414
 	go.uber.org/multierr v1.11.0
-	golang.org/x/exp v0.0.0-20231006140011-7918f672742d
+	golang.org/x/exp v0.0.0-20250911091902-df9299821621
 	golang.org/x/oauth2 v0.28.0
-	golang.org/x/sync v0.12.0
-	golang.org/x/sys v0.31.0
-	golang.org/x/text v0.23.0
+	golang.org/x/sync v0.17.0
+	golang.org/x/sys v0.36.0
+	golang.org/x/text v0.29.0
 	gopkg.in/yaml.v3 v3.0.1
 )
 
@@ -138,9 +138,9 @@ require (
 	github.com/weppos/publicsuffix-go v0.30.2-0.20230730094716-a20f9abcc222
 	github.com/zcalusic/sysinfo v1.0.2
 	github.com/zmap/rc2 v0.0.0-20190804163417-abaa70531248 // indirect
-	golang.org/x/crypto v0.36.0 // indirect
-	golang.org/x/mod v0.17.0 // indirect
-	golang.org/x/net v0.37.0 // indirect
-	golang.org/x/term v0.30.0
-	golang.org/x/tools v0.21.1-0.20240508182429-e35e4ccd0d2d
+	golang.org/x/crypto v0.42.0 // indirect
+	golang.org/x/mod v0.28.0 // indirect
+	golang.org/x/net v0.44.0 // indirect
+	golang.org/x/term v0.35.0
+	golang.org/x/tools v0.37.0
 )
